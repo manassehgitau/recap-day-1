@@ -103,12 +103,6 @@ console.log(num1 *= 3);
 
 console.log(num1 /= 7);
 
-let roomTemp = 20;
-
-if (roomTemp <= 20){
-    console.log("The temperature is cold");
-}
-
 // comparison operations
 // < - less than sign
 // > - greater than sign
@@ -156,3 +150,56 @@ console.log("10" != 9);
 
 // add strictness (typecheck - typeof())
 console.log("10" !== 9);
+
+let amount = 60;
+// check whether one can afford to milk
+
+if (amount < 50){
+    console.log("The amount is not sufficient to buy milk");
+}else{
+    console.log("The amount you have can buy milk");
+}
+
+let roomTemp = 50;
+
+if (roomTemp <= 20){
+    console.log("The temperature is cold");
+} else if (roomTemp > 20 && roomTemp < 30){
+    console.log("The temperature is ok!")
+} else{
+    console.log("The temperature is hot!");
+}
+
+let dayOfTheWeek = "Fri";
+
+switch (dayOfTheWeek) {
+    case "Mon":
+        console.log("Start of the week");
+        break;
+
+    case "Tue":
+        console.log("Second Day of the week");
+        break; 
+    
+    case "Fri":
+        console.log("Fifth day of the week");
+        break;
+    default:
+        break;
+}
+
+// console.log(1);
+// console.log(2);
+// ...addition\\
+
+// for (let i = 0; i <= 10; i++){
+//     console.log(i);
+// }
+
+{}
+let x = 0
+
+while (x <= 10){
+    console.log(x);
+    x++;
+}
