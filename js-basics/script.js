@@ -1,4 +1,8 @@
-console.log("Manasseh");
+import { PI, add } from "../utils/mathUtils.js";
+console.log(PI);
+
+
+// console.log("Manasseh");
 
 // This is a single-line comment
 
